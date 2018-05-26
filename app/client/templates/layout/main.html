@@ -1,0 +1,21 @@
+<template name="layout_main">
+
+	<div class="dapp-flex-content">
+
+		<!-- aside -->
+		<aside class="dapp-aside dapp-overflow">
+			{{> yield region="aside"}}
+		</aside>
+
+		<!-- content, the <main class="dapp-content">...</main> is inside the template-->
+		{{> yield}}
+
+		<!-- actionbar -->
+		<aside class="dapp-actionbar dapp-overflow">
+			{{> yield region="actionbar"}}
+		</aside>
+
+	</div>
+
+	{{> yield region="modal"}}
+</template>

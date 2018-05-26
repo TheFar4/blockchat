@@ -1,0 +1,6 @@
+geth --rpccorsdomain "http://localhost:3000" --rpc --shh --unlock "0x3df43C602BFe214654e6180f40411A06Ab212efa"
+passeht4444
+
+meteor
+
+kuhanraj.balan@gmail.com
